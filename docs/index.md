@@ -1,6 +1,21 @@
-# Welcome to Homepage
+# Getting Started
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Welcome to this documention guide for PyCharm. We will guide you on **Cloning a GitHub Repository**, **Inserting Command Line Parameters**, and **Debugging**.
+
+## Intended Users
+
+Our documentation guide is tailored for users who are:
+
+* have some basic programming knowledge 
+* new to using PyCharm
+
+## Prerequisites 
+
+Please ensure you meet the following requirements: 
+
+* have PyCharm Professional already installed 
+    * PyCharm Edu/Community may be slightly different
+* know what a GitHub repository is
 
 ## Commands
 
