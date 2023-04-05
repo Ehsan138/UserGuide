@@ -42,7 +42,7 @@ While the debugger is executing, you can pause and resume it by using the follow
 ### To Stop the Debugger:
 * To terminate the debugger, click the **Stop** button ![stop](./images/debug/stop.png){width=18} in the **Debug** toolbar or press ⌘ F2 and if there are multiple processes, select the process to terminate.
 
-<br>
+
 
 ## Breakpoints
 Breakpoints mark where you want the debugger to suspend the program execution so that you can examine the program at a deeper level. Breakpoints can be simple (for example, suspending the program on reaching some line of code) or involve more complex logic (checking against additional conditions, writing log messages, and so on). When a debugger pauses the execution of a program, it is said to be in a suspended state.
@@ -67,7 +67,6 @@ Muted | Breakpoints can be **muted** if you don't require them to be triggered f
 Disabled | If you delete a breakpoint, its settings will be permanently removed. However, if you want to temporarily deactivate a specific breakpoint while preserving its configuration, you can **disable** it instead. (Click View Breakpoints ⌘ ⇧ F8 and check/uncheck the breakpoint on the list.)
 Non-suspending | If the breakpoint is **non-suspending**, the debugger will not suspend the program when it hits the breakpoint.
 
-<br/>
 
 ## Examining the Debugger
 
@@ -144,8 +143,9 @@ The "Step Into" tool allows you to move into a method to view what is happening 
 In some cases, "Step Into" may skip some scripts as they are not typically relevant for debugging purposes. 
 
 To customize this list: 
+
 1. Go to the **Build, Execution, Deployment | Debugger | Stepping** page of the **Settings** dialog (⌘ Comma).
-2. On the Debugger.Stepping page that appears, select **Do not step into library scripts** if you want to skip all library scripts.
+2. On the **Debugger | Stepping page** that appears, select **Do not step into library scripts** if you want to skip all library scripts.
 3. To prevent stepping into particular scripts, select the **Do not step into scripts** checkbox and create a list of these scripts using the toolbar buttons.
 
 
