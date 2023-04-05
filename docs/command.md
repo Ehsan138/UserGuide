@@ -21,4 +21,5 @@ Before you start, make sure that you have your project open.
 2. In the Run/Debug Configurations dialog that appears, select which configuration you want to add the environment variables.
 3. Enter the variable name and value: `<name>=<value>`. If you have multiple variables, separate them with semicolons.
 
-![Environment Variables](images/command/env_variables.png)
+
+![Environment Variables](./images/command/env_variables.png)
