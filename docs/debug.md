@@ -23,11 +23,11 @@ Before you start, make sure that you have your project open.
 <br>
 * If you need further explanation on each arrow icon, read the **Stepping Through the Debugger** section below.
 <br>
-4. To end the Debugger, click on the red square icon on the top right of the program.
-**Image**
+4. To end the Debugger, click on the Stop icon ![stop icon](./images/debug/stop.png){width=20} on the top right of the program.
+<br>
 5. Remove the breakpoint by clicking the red circle.
 
-<br/>
+
 
 ## To Pause the Debugger:
 While the debugger is executing, you can pause and resume it by using the following buttons on the **Debug** toolbar:
