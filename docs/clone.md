@@ -14,7 +14,6 @@ By cloning the GitHub repository, you copy the project from the remote location 
 6. Paste the link you copied earlier into the field.
 7. Click on "Clone".
 
-<br>
 
 ## Stop Cloning
 If you have started cloning the repository but want to stop it:
@@ -24,7 +23,6 @@ If you have started cloning the repository but want to stop it:
 
 ![Stop Cloning](./images/clone/stop_cloning.png)
 
-<br>
 
 ## Clone Failure
 
