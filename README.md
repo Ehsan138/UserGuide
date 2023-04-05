@@ -1,5 +1,8 @@
 # README
 
+## PyCharm User Guide 
+By Ehsan Emadi & Michelle Kwok
+
 ## Welcome to the PyCharm Documentation Guide
 
 This documentation guide will walk you through the basics of using PyCharm, including **Cloning a GitHub Repository**, **Inserting Command Line Parameters**, and **Debugging**. It will also offer additional information about relevant PyCharm features for those who are new to the platform.
