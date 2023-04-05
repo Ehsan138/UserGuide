@@ -23,9 +23,10 @@ Before you start, make sure that you have your project open.
 4. To end the Debugger, click on the red square icon on the top right of the program.
 **Image**
 5. Remove the breakpoint by clicking the red circle.
+
 <br/>
 
-## Breakpoints
+# Breakpoints
 Breakpoints mark where you want the debugger to suspend the program execution so that you can examine the program at a deeper level. Breakpoints can be simple (for example, suspending the program on reaching some line of code) or involve more complex logic (checking against additional conditions, writing log messages, and so on). When a debugger pauses the execution of a program, it is said to be in a suspended state.
 Please note that breakpoints do not disappear upon termination of the Debugger. They must be removed explicitly (aside from temporary breakpoints).
 
@@ -81,7 +82,6 @@ The state of the program is captured through frames. When the program is suspend
 
 A frame in the context of programming represents the currently active method or function call, and it contains the local variables, arguments, and code context necessary for expression evaluation. As each method is invoked, a new frame is created and added to the top of the frame stack, and when the method execution is completed, the corresponding frame is removed from the stack in a last in, first out fashion. Examining frames is useful for understanding the specific arguments passed to a method and the state of the calling method at the time of invocation.
 
-<br/>
 
 ## Examine Variables
 
@@ -91,7 +91,7 @@ t's important to keep in mind the scope and lifetime of variables. If a particul
 
 **Image**
 
-<br/>
+
 
 ## Copy Variables
 * To copy the name of a variable, right-click the variable and select **Copy Name**.
@@ -112,7 +112,6 @@ If you want to compare two values of variables, you can use the "Compare Value w
 In PyCharm, you can use a dedicated dialog to inspect variables, which can be helpful when you need to monitor a particular variable or object reference while still being able to navigate through different frames and threads.
 * Right-click the variable on the Variables tab and select **Inspect**.
 
-<br/>
 
 ## View Variables as an Array
 1. Go to the Variables tab and select an array or a DataFrame.
@@ -120,7 +119,6 @@ In PyCharm, you can use a dedicated dialog to inspect variables, which can be he
 3. The Data View window will open.
 **Image**
 
-<br/>
 
 ## Set Variable Values
 If you want to test a program under certain conditions or modify its behaviour at runtime, you can do so by setting the variable values.
@@ -128,7 +126,6 @@ If you want to test a program under certain conditions or modify its behaviour a
 2. Enter the value you want to test and press ⏎.
 **Image**
 
-<br>
 
 # Stepping Through the Debugger
 In programming, stepping refers to the process of controlling the execution of a program step-by-step. 
@@ -137,14 +134,12 @@ PyCharm offers various stepping actions which you use depending on your requirem
 
 **Image**
 
-<br/>
 
 ## Step Over
 The "Step Over" tool allows you to proceed to the next line of code, regardless of whether it contains any method calls. If the current line does include method calls, the implementation of those methods will be skipped, and you will move directly to the next line of the caller method.
 
 * Click the Step Over button or press F8.
 
-<br/>
 
 ## Step Into
 The "Step Into" tool allows you to move into a method to view what is happening inside. This option is useful when you are unsure if the method is producing the correct output.
@@ -158,14 +153,13 @@ To customize this list:
 2. On the Debugger.Stepping page that appears, select **Do not step into library scripts** if you want to skip all library scripts.
 3. To prevent stepping into particular scripts, select the **Do not step into scripts** checkbox and create a list of these scripts using the toolbar buttons.
 
-<br/>
 
 ## Step Into My Code
 Select "Step Into my Code" if you want to stop debugger from stepping into library classes.
 
 * Click the Step Into My Code button (⌥ ⇧ F7).
 
-<br/>
+
 
 ## Smart Step Into
 
@@ -178,14 +172,12 @@ If you have more than one method call on a single line and want to select certai
 
 "Smart Step Into" is automatically used whenever there are several method calls in one line. To turn off this default setting, go to **Settings | Build, Execution, Deployment | Debugger | Stepping** and unclick the **Always do smart step into** checkbox.
 
-<br/>
 
 ## Step Out
 The "Step Out" tool allows you to exit the current method and move to the caller method.
 
 * Click the Step Out button or press ⌥ ⇧ F8.
 
-<br/>
 
 ## Run to Cursor
 "Run to Cursor" allows the program to continue running until the position of the caret is reached.
@@ -194,14 +186,13 @@ The "Step Out" tool allows you to exit the current method and move to the caller
 2. Click the Run to Cursor button or press ⌥ F9.
 3. Alternatively, you can click on the line number in the gutter to initiate "Run to Cursor".
 
-<br/>
+
 
 ## Force Step Into
 Use this method if you want the debugger to step into the method even if it is skipped by the normal **Step Into**.
 
 * Click the Force Step Into button or press ⌥ ⇧ F7.
 
-<br/>
 
 ## Force Run to Cursor
 The "Force Run to Cursor" tool means the program will continue running until the position of the caret is reached, ignoring all breakpoints encountered along the way.
@@ -209,14 +200,12 @@ The "Force Run to Cursor" tool means the program will continue running until the
 1. Place the caret at the desired line where you want the program to freeze.
 2. From the main menu, select **Run | Debugging Actions | Force Run to Cursor** or press ⌘ ⌥ F9.
 
-<br/>
 
 ## Force Step Over
 The "Force Step Over" tool moves to the next line of code, even if the current line contains method calls. If any breakpoints are present within the called methods, they will be ignored.
 
 * From the main menu, select **Run | Debugging Actions | Force Step Over** or press ⌥ ⇧ F8.
 
-<br/>
 
 ## Jump to Cursor
 The "Jump to Cursor" tool halts the execution of the program and jumps to the line where the caret is currently located, bypassing any breakpoints encountered along the way.
