@@ -20,4 +20,4 @@ Before you start, make sure that you have your project open.
 3. Enter the variable name and value: `<name>=<value>`. If you have multiple variables, separate them with semicolons.
 
 
-![Environment Variables](./images/command/env_variables.png)
+![Environment Variables](./images/command/env_variables.png){ width=300, length=200 }
