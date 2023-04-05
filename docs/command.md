@@ -7,14 +7,14 @@ Before you start, make sure that you have your project open.
 ## How to Add Program Arguments:
 1. From the main menu, select **Run | Edit Configurations**.
 
-![Edit Configurations](./images/command/configurations.png){ width=500 }
+![Edit Configurations](./images/command/configurations.png){ width=700 }
 <br>
 2. In the Run/Debug Configurations dialog that appears, select which configuration you want to pass the arguments.
 <br>
 3. In the **Parameters** or **Program arguments** textbox (depends on your configuration), add the arguments in question. (For ex: sample.txt).  If you have multiple arguments, separate them with spaces.
 
-![Parameters](./images/command/parameters.png){ width=500 }
-![Program Arguments](./images/command/program_args.png){ width=500 } 
+![Parameters](./images/command/parameters.png){ width=700 }
+![Program Arguments](./images/command/program_args.png){ width=700 } 
 <br>
 4. Click on "Apply".
 <br>
@@ -26,4 +26,4 @@ Before you start, make sure that you have your project open.
 3. Enter the variable name and value: `<name>=<value>`. If you have multiple variables, separate them with semicolons.
 
 
-![Environment Variables](./images/command/env_variables.png){ width=500 }
+![Environment Variables](./images/command/env_variables.png){ width=700 }
