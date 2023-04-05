@@ -1,6 +1,6 @@
 # Getting Started
 
-Welcome to this documention guide for PyCharm. We will guide you on **Cloning a GitHub Repository**, **Inserting Command Line Parameters**, and **Debugging**.
+Welcome to this documention guide for PyCharm :smile:. We will guide you on **Cloning a GitHub Repository**, **Inserting Command Line Parameters**, and **Debugging**. This documentation will also provide further information about relevant PyCharm features for those with little PyCharm experience. 
 
 ## Intended Users
 
@@ -16,16 +16,10 @@ Please ensure you meet the following requirements:
 * have PyCharm Professional already installed. (Please note that PyCharm Edu/Community may be slightly different.)
 * know what a GitHub repository is
 
-## Commands
+##Procedures Overview
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+This documentation is mainly divided into:
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* Cloning a GitHub Repository
+* Command Line Arguments
+* Debugging

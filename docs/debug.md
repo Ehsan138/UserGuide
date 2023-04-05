@@ -1,4 +1,4 @@
-# Debug
+# Debugging
 
 The debugger is a tool to help programmers detect and fix errors (bugs) in their code. It allows programmers to monitor the execution of their programs and examine the state of the program and its variables at specific points in the code.
 
@@ -47,10 +47,8 @@ Verified | Once a debugger session has been initiated, the debugger will assess 
 Warning | In the case that the debugger deems it technically possible to suspend the program at the specified breakpoint, but there are other issues that may arise, the debugger will give a **warning**. An instance of this would be when it is impossible to pause the program at one of its method implementations.
 Invalid | When the debugger determines that it is technically impossible to suspend the program at the specified breakpoint, it marks this as **invalid**. The primary reason for this is often that the line has no executable code.
 Inactive/dependent | If a breakpoint has been configured to be disabled until another breakpoint is reached, and this condition has not yet been met, the breakpoint is labeled as **inactive** or **dependent**.
-Muted | Breakpoints can be **muted** if you don't require them to be triggered for some time. By doing this, you can continue with normal program operation without exiting the debugging session. Once you are ready to resume debugging, you can unmute the breakpoints to reactivate them.
-(Click the Mute Breakpoints button in the toolbar of the Debug tool window.)
-Disabled | If you delete a breakpoint, its settings will be permanently removed. However, if you want to temporarily deactivate a specific breakpoint while preserving its configuration, you can **disable** it instead.
-(click View Breakpoints ⌘ ⇧ F8 and check/uncheck the breakpoint on the list.)
+Muted | Breakpoints can be **muted** if you don't require them to be triggered for some time. By doing this, you can continue with normal program operation without exiting the debugging session. Once you are ready to resume debugging, you can unmute the breakpoints to reactivate them. (Click the Mute Breakpoints button in the toolbar of the Debug tool window.)
+Disabled | If you delete a breakpoint, its settings will be permanently removed. However, if you want to temporarily deactivate a specific breakpoint while preserving its configuration, you can **disable** it instead. (Click View Breakpoints ⌘ ⇧ F8 and check/uncheck the breakpoint on the list.)
 Non-suspending | If the breakpoint is **non-suspending**, the debugger will not suspend the program when it hits the breakpoint.
 
 <br/>
