@@ -7,6 +7,7 @@ By cloning the GitHub repository, you copy the project from the remote location 
 1. Go to the repository you want to clone on GitHub.
 2. Click on "Code".
 3. Copy the URL that pops up.
+![GitHub URL](./images/clone/github.png)
 4. Go to the Welcome Screen of PyCharm.
 ![Welcome Screen](./images/clone/welcome_screen.png)
 5. Click on "Get From VCS".
