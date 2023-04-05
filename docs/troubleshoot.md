@@ -12,4 +12,4 @@ Unable to clone a GitHub Repository | Invalid URL or network issues | Double-che
 Can't debug a Docker run/debug configuration | PyCharm has a Debugger tool for Python run/debug configurations | [Debug the Python script in a Docker container](https://www.jetbrains.com/help/pycharm/using-docker-as-a-remote-interpreter.html#debug)
 Debugger not responding | Infinite loop or deadlock in the code | Use the "Pause" button to pause the debugger, identify the issue in the code, and fix it before resuming the debugging session.
 Process of debugging is slow | Debugger stops on each exception thrown as well as when the process terminates | Go to **Run -> View Breakpoints** and in the **Breakpoints** dialog, uncheck the **On Raise** checkbox.
-PyCharm reports import errors in your PyQt code | The interpreter has PyQt installed but in the application code, it isn't imported | In **Settings** (⌘ Comma), go to **Build, Execution, Deployment -> Python Debugger**, and clear the **PyQt compatible** checkbox. (By deafult, this mode is already enabled.)
+
