@@ -4,8 +4,19 @@ This section will guide you through inserting command line parameters to your ID
 
 Before you start, make sure that you have your project open.
 
-## Steps:
-1. Right-click on the dropdown button to the left of the Run button on the top right corner of the program.
-2. In the Parameters textbox, add the arguments in question. (For ex: sample.txt)  The arguments should be separated with spaces.
-3. Click on "Apply".
-4. Click on "OK".
+## How to Add Program Arguments:
+1. From the main menu, select **Run | Edit Configurations**.
+**Image**
+2. In the Run/Debug Configurations dialog that appears, select which configuration you want to pass the arguments.
+3. In the **Parameters** or **Program arguments** textbox (depends on your configuration), add the arguments in question. (For ex: sample.txt).  If you have multiple arguments, separate them with spaces.
+**Image**
+**Image**
+4. Click on "Apply".
+5. Click on "OK".
+
+## How to Add Environment Variables:
+1. From the main menu, select **Run | Edit Configurations**.
+2. In the Run/Debug Configurations dialog that appears, select which configuration you want to add the environment variables.
+3. Enter the variable name and value: `<name>=<value>`. If you have multiple variables, separate them with semicolons.
+
+![Environment Variables](images/command/env_variables.png)
