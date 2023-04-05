@@ -4,17 +4,16 @@ Welcome to this documention guide for PyCharm. We will guide you on **Cloning a 
 
 ## Intended Users
 
-Our documentation guide is tailored for users who are:
+Our documentation guide is tailored for users who:
 
 * have some basic programming knowledge 
-* new to using PyCharm
+* are new to using PyCharm
 
 ## Prerequisites 
 
 Please ensure you meet the following requirements: 
 
-* have PyCharm Professional already installed 
-    * PyCharm Edu/Community may be slightly different
+* have PyCharm Professional already installed. (Please note that PyCharm Edu/Community may be slightly different.)
 * know what a GitHub repository is
 
 ## Commands
