@@ -9,8 +9,10 @@ Before you start, make sure that you have your project open.
 **Image**
 2. In the Run/Debug Configurations dialog that appears, select which configuration you want to pass the arguments.
 3. In the **Parameters** or **Program arguments** textbox (depends on your configuration), add the arguments in question. (For ex: sample.txt).  If you have multiple arguments, separate them with spaces.
+
 **Image**
 **Image**
+
 4. Click on "Apply".
 5. Click on "OK".
 
